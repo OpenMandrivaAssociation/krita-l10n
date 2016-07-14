@@ -4,7 +4,6 @@
 %define appname krita
 # Language descriptions
 
-
 %define language_af Afrikaans
 %define language_ar Arabic
 %define language_ast Asturian
@@ -119,5 +118,5 @@ Language files for Krita.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cd %{buildroot}%{_datadir}
-tar xf %{_sourcedir}/%{appname}-%{version}-l10n-win-current.tar.gz 
+tar xf %{_sourcedir}/%{appname}-%{version}-l10n-win-current.tar.gz
 rm -rf locale/all_languages locale/ca@valencia locale/uz@cyrillic
