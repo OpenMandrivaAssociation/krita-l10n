@@ -1,0 +1,16 @@
+%package -n krita-l10n-__LANG__
+Summary: %{language___LANG__} language files for Krita
+License: GPLv2+
+Group: System/Internationalization
+Url: http://www.krita.org/
+Requires: locales-%{locale___LANG__}
+Requires: krita
+Provides: krita-l10n
+BuildArch: noarch
+
+%description -n krita-l10n-__LANG__
+%{summary}.
+
+%files -n krita-l10n-__LANG__
+%defattr(-,root,root,-)
+%lang(__LANG__) %{_datadir}/locale/__LANG__/*
