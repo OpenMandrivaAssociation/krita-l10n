@@ -90,7 +90,7 @@ Version: 3.0
 Release: 1
 License: GPL
 Group: System/Internationalization
-Url: http://www.krita.org/
+Url: https://www.krita.org/
 # localisation package
 Source0: http://files.kde.org/krita/build/%{appname}-%{version}-l10n-win-current.tar.gz
 Source1: %{name}-template.in
